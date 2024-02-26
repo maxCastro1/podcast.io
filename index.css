@@ -30,6 +30,12 @@ img{
     width: 100%;
     object-fit: cover;
 }
+main {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .rapper {
     position: relative;
     border-radius: 2rem;
@@ -39,7 +45,7 @@ img{
     margin-block:1rem ;
      margin-inline: auto;
     box-sizing: border-box;
-    min-height: 98vh;
+   
 }
 .rapper::after {
     position: absolute;
