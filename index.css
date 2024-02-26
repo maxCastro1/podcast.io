@@ -39,6 +39,7 @@ img{
     margin-block:1rem ;
      margin-inline: auto;
     box-sizing: border-box;
+    min-height: 98vh;
 }
 .rapper::after {
     position: absolute;
